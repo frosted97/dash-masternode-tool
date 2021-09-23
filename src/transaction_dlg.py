@@ -270,18 +270,11 @@ class TransactionDlg(QDialog, QDetectThemeChange, Ui_TransactionDlg, WndUtils):
                                        'broadcast the transaction.</span></p>'
 
                         summary = f"""<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html><head><meta name="qrichtext" content="1" />
-<style type="text/css">
-td.lbl{{text-align: right;vertical-align: top;}} 
-p.lbl{{margin: 0 5px 0 0; font-weight: bold;}} 
-p.val{{margin: 0 0 0 8px; color: {value_color};}}
-</style></head>
-<body style="font-size:{self.base_font_size}pt; font-weight:400; font-style:normal; margin-left:10px;margin-right:10px;
-  background-color:{bg_color}; color:{fg_color}">
-<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">
-<span style=" font-size:{self.title_font_size}pt; font-weight:600;">{title}</span></p>
-<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; 
-  -qt-block-indent:0; text-indent:0px; font-size:{self.base_font_size}pt;"><br /></p>
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+td.lbl{{text-align: right;vertical-align: top;}} p.lbl{{margin: 0 5px 0 0; font-weight: bold;}} p.val{{margin: 0 0 0 8px; color: navy;}}
+</style></head><body style="font-size:{self.base_font_size}pt; font-weight:400; font-style:normal; margin-left:10px;margin-right:10px;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:{self.title_font_size}pt; font-weight:600;">{title}</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:{self.base_font_size}pt;"><br /></p>
 {subtitle}
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">
  <table>
